@@ -19,9 +19,9 @@ connection.on('ready', function () {
       // need to decode from the raw buffer 
       var encoded_payload = decodeURI(message.data);
 
-      console.log('sending', decodeURI(message.data));
+      console.log('sending', encoded_payload);
       
-      io.emit('demo', decodeURI(message.data));
+      io.emit('demo', encoded_payload);
     });
   });
 });
