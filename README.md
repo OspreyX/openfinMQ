@@ -46,18 +46,19 @@ To run the web client as an OpenFin application
 If you have your own data source you can hook it up to the Angular app. You would have to connect to your WebSocket and swap out the call to `socket.on(...)` in `client/scripts/controllers/main.js` to one that handles the socket you connected to. 
 
 The structure of the json the app expects is an array of objects structured as follows: 
-
-	[{
-		spread: "5YR/10YR",
-		bps: 120,
-		change: 2,
-		dv01: 12,
-		hedge: 3
-
-	},
 	{
-		...
-	}]
+		demo: [{
+			spread: "5YR/10YR",
+			bps: 120,
+			change: 2,
+			dv01: 12,
+			hedge: 3
+	
+		},
+		{
+			...
+		}]
+	}
 
 ## Questions?
 shoot an email to support@openfin.co
