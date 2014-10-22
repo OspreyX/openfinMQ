@@ -21,7 +21,7 @@ A basic process set that integrates data flowing through a rabbitMQ server combi
 To run the web client as an OpenFin application
 
 *	Create an OpenFin app via our [generator](https://github.com/openfin/generator-openfin)
-* In the OpenFin project's directory, edit the file `publicapp.json` so the `url` key points to the node server (defaults to localhost:3000)
+* In the OpenFin project's directory, edit the file `public/app.json` so the `url` key points to the node server (defaults to localhost:3000)
 ````js
 {
     "env": "2.0.7.0",
