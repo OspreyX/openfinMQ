@@ -59,6 +59,6 @@ The structure of the json the app expects is an array of objects structured as f
 		...
 	}]
 
-	## Questions?
-	shoot an email to support@openfin.co
+## Questions?
+shoot an email to support@openfin.co
 
