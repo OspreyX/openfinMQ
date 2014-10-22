@@ -7,7 +7,7 @@ A basic process set that integrates data flowing through a rabbitMQ server combi
 (`$ ...` indicates entries to the command line)
 
 * [download and install RabbitMQ](http://www.rabbitmq.com/download.html)
-* clone this repo `$ git clone https://github.com/datamadic/openfinMQ.git`
+* clone this repo `$ git clone https://github.com/openfin/openfinMQ.git`
 * install dependencies `$ npm install`
 * install bower dependencies:
 	* cd into the client directory `$ cd client`
