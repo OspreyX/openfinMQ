@@ -1,0 +1,24 @@
+<div class="spread-container">
+	<div class="spread-row">
+		<div class="spread-item">{{model.spread}}</div>
+		<div class="spread-item">SPREAD</div>
+	</div>
+	<div class="spread-row single-row">
+		<div class="spread-item">
+			<span class="large-spread-num">{{model.bps | number:1}}</span>
+			bps
+		</div>
+	</div>
+	<div class="spread-row">
+		<div class="spread-item">{{model.change | number:1}}</div>
+		<div class="spread-item">CHANGE</div>
+	</div>
+	<div class="spread-row">
+		<div class="spread-item">{{model.dv01 | number:0}}</div>
+		<div class="spread-item">DV01</div>
+	</div>
+	<div class="spread-row">
+		<div class="spread-item">{{model.hedge | number:1}}</div>
+		<div class="spread-item">HEDGE RATIO</div>
+	</div>
+</div>

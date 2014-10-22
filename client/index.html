@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<title>Jeffries POC</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+	  var socket = io();
+	</script>
+</head>
+<body ng-app="tmatrix">
+	<div ng-view></div>
+
+	<script src="scripts/desktop-adapter.js"></script>
+	<script src="scripts/tearouts.js"></script>
+
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+
+	<script src="scripts/app.js"></script>
+	<script src="scripts/providers/fin.js"></script>
+	<script src="scripts/controllers/main.js"></script>
+	<script src="scripts/directives/spread.js"></script>
+</body>
+</html>

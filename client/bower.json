@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/datamadic/openfinMQ",
+  "authors": [
+    "datamadic <xavier@openfin.co>"
+  ],
+  "description": "demo client",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.3.0",
+    "angular": "~1.3.0"
+  }
+}
