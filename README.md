@@ -24,8 +24,6 @@ To run the web client as an OpenFin application
 * In the OpenFin project's directory, edit the file `public/app.json` so the `url` key points to the node server (defaults to localhost:3000)
 ````js
 {
-    "env": "2.0.7.0",
-    ...
     "startup_app": {
     		...
         "url": <Your Path Goes Here>,
