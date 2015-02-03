@@ -1,5 +1,5 @@
 {
-  "name": "Treasury Matrix",
+  "name": "Treasury_Matrix",
   "version": "0.0.0",
   "description": "rabbitmq - node - openfin POC",
   "main": "index.js",
